@@ -70,10 +70,10 @@ index 09189ea068b2e83c149fa1f3b74a2aaa3aa8686d..39fdee38574a27ea1a497377ce115260
    WTF::Partitions::ArrayBufferPartition()->Free(data);
  }
 diff --git a/third_party/blink/renderer/core/typed_arrays/array_buffer/array_buffer_contents.h b/third_party/blink/renderer/core/typed_arrays/array_buffer/array_buffer_contents.h
-index a597d88799bed96da654d0d6c387bf1cf3dd102b..1f8d9f232e253964dfb12cdda2052226ff6c606d 100644
+index dc46c999095115c1d03db81063583e7321253550..bfb235787f3fa5aa3341ad2a11fa74c5c46f3ffd 100644
 --- a/third_party/blink/renderer/core/typed_arrays/array_buffer/array_buffer_contents.h
 +++ b/third_party/blink/renderer/core/typed_arrays/array_buffer/array_buffer_contents.h
-@@ -101,6 +101,7 @@ class CORE_EXPORT ArrayBufferContents {
+@@ -105,6 +105,7 @@ class CORE_EXPORT ArrayBufferContents {
    void CopyTo(ArrayBufferContents& other);
  
    static void* AllocateMemoryOrNull(size_t, InitializationPolicy);

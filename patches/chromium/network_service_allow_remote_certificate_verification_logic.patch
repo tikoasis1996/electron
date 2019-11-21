@@ -5,7 +5,7 @@ Subject: network_service_allow_remote_certificate_verification_logic.patch
 
 
 diff --git a/services/network/network_context.cc b/services/network/network_context.cc
-index 8c7a82acb76b347a183b4af1316dffb00e129290..ee6b2b24f1c5ada827d6ec783678f41ea1761944 100644
+index a529ff1305bf3e9ef16e43c8102c717104fbaece..577ead947513ac41fa140002ad0c41fe03fac457 100644
 --- a/services/network/network_context.cc
 +++ b/services/network/network_context.cc
 @@ -92,6 +92,11 @@

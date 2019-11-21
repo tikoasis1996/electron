@@ -11,7 +11,7 @@ majority of changes originally come from these PRs:
 This patch also fixes callback for manual user cancellation and success.
 
 diff --git a/components/printing/renderer/print_render_frame_helper.cc b/components/printing/renderer/print_render_frame_helper.cc
-index 380807a0230c785e425e0e6ce47e9be6e1371d53..95d6ae21b4566357aee6a7d0b91ac3611d9e4a36 100644
+index fc00cb9acea299985bcd029cd71dd812316b6a29..75c251112d3bc121cd7a0371b7e01a577f72d029 100644
 --- a/components/printing/renderer/print_render_frame_helper.cc
 +++ b/components/printing/renderer/print_render_frame_helper.cc
 @@ -39,6 +39,7 @@
