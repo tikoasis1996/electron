@@ -76,8 +76,8 @@ index 860f66727e39e054f8399a460f9791fe4240a36a..f74707c4734d9859fd9e1d3be0724467
 +        delegate_->GetControllerForRenderManager().GetBrowserContext();
 +    bool has_navigation_started = request->state() != NavigationRequest::NOT_STARTED;
 +    bool has_response_started =
-+        (request->state() == NavigationRequest::RESPONSE_STARTED ||
-+        request->state() == NavigationRequest::FAILED) &&
++        (request->state() == NavigationRequest::READY_TO_COMMIT ||
++        request->state() == NavigationRequest::CANCELING) &&
 +        !speculative_render_frame_host_;
 +    // Gives user a chance to choose a custom site instance.
 +    SiteInstance* affinity_site_instance = nullptr;
